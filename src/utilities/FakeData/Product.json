@@ -1,0 +1,24 @@
+[
+
+    {
+        "name":"product name1",
+        "price":"12",
+        "Category":"cat"
+    },
+    {
+        "name":"product name2",
+        "price":"12",
+        "Category":"cat"
+    },
+    {
+        "name":"product name1",
+        "price":"12",
+        "Category":"cat"
+    },
+    {
+        "name":"product name2",
+        "price":"12",
+        "Category":"cat"
+    }
+    
+]

@@ -1,13 +1,17 @@
-
 import './App.css';
 import HomePage from './Pages/Home';
+import Products from './utilities/FakeData/Product.json';
 
 function App() {
   return (
-  <>
-  <h1 className="text-3xl font-bold text-red-400">Hello world!</h1>
-  <HomePage/>
-  </>
+    <div>
+      <h1 className="text-3xl font-bold text-regal-blue">
+        {Products.map((item, i) => (
+          <div key={Math.random()}>{JSON.stringify(item)}</div>
+        ))}
+      </h1>
+      <HomePage />
+    </div>
   );
 }
 
